@@ -25,8 +25,15 @@ document.addEventListener('DOMContentLoaded', function () {
       }
   
       // 🚨 Generate certificate content dynamically
-      certificateContent. = `
+      certificateContent.innerHTML = `
+      <h1>Certificate of Achievement</h1>
+      <p>This is to cetify that:</P>
       <h3>${studentName}</h3>
+      <p>Has almost completed:</P>
+      <p>{courseName}</P>
+      <p>With tireless persistence and unmatched tenecity, for standing firm through every challenge💪🏽</P>
+      
+
     `;
     
       //  Display the modal
@@ -41,7 +48,8 @@ document.addEventListener('DOMContentLoaded', function () {
     //  🚨 Close the modal when the close button is clicked
     
     closeModal.addEventListener('click', function () {
-      modal.style.display = 'none';
+      modal.style.display = 'none';  // Hide the modal
+
     });
   });
   
