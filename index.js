@@ -30,9 +30,10 @@ document.addEventListener('DOMContentLoaded', function () {
       <p>This is to cetify that:</P>
       <h3>${studentName}</h3>
       <p>Has almost completed:</P>
-      <p>{courseName}</P>
+      <p>${courseName}</P>
       <p>With tireless persistence and unmatched tenecity, for standing firm through every challenge💪🏽</P>
-      
+      <img src="/logo.png" alt="logo">
+      <p>${personalMessage}</P>
 
     `;
     
