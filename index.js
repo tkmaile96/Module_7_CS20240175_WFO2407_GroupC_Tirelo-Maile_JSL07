@@ -28,12 +28,12 @@ document.addEventListener('DOMContentLoaded', function () {
       certificateContent.innerHTML = `
       <h1>Certificate of Achievement</h1>
       <p>This is to cetify that:</P>
-      <h3>${studentName}</h3>
+      <h3 class="student-name">${studentName}</h3>
       <p>Has almost completed:</P>
-      <p>${courseName}</P>
+      <p class="course-name">${courseName}</P>
       <p>With tireless persistence and unmatched tenecity, for standing firm through every challenge💪🏽</P>
       <img src="/logo.png" alt="logo">
-      <p>${personalMessage}</P>
+      <p>🔥💪🏽${personalMessage}🔥💪🏽</P>
 
     `;
     
